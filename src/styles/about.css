@@ -1,0 +1,23 @@
+h1 {
+  color: #eee;
+  /* font-family: consolas; */
+  line-height: 80px;
+  font-size: 300%;
+  align-content: start;
+  top: 20%;
+  left: 10%;
+  position: absolute;
+  text-align: left;
+}
+.container {
+  align-items: start;
+  width: 100%;
+}
+.title {
+  color: #ff0;
+}
+
+strong {
+  color: #ff0;
+  font-family: consolas;
+}
