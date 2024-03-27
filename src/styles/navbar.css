@@ -10,7 +10,7 @@
   margin-left: 20px;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #eee;
+  border: 1px solid #999;
   border-radius: 50px;
   outline: none;
   overflow: hidden;
@@ -21,4 +21,8 @@
 
 .nav-background {
   background-color: black;
+}
+
+nav .navbar-dark .navbar-nav li a .nav-link {
+  color: green;
 }
