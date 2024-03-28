@@ -1,12 +1,18 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "./styles/skills.css";
+import "./styles/about.css";
+
 import "bootstrap/dist/css/bootstrap.css";
 import NavBar from "./components/Navbar";
 import About from "./components/About";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <div className="svg">
         <svg
           width="100%"
@@ -27,8 +33,9 @@ function App() {
           ></path>
         </svg>
       </div>
-      <NavBar />
       <About />
+      {/* <Skills /> */}
+      {/* <Contact /> */}
     </div>
   );
 }

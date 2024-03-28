@@ -1,10 +1,13 @@
-h1 {
-  color: #eee;
-  /* font-family: consolas; */
+span {
+  color: #fdfdfd;
+  font-family: consolas;
   line-height: 60px;
-  font-size: 250%;
+}
+h1 {
+  color: #fdfdfd;
+  line-height: 60px;
   align-content: start;
-  top: 20%;
+  top: 25%;
   left: 10%;
   position: absolute;
   text-align: left;
@@ -19,5 +22,4 @@ h1 {
 
 strong {
   color: #ff0;
-  font-family: consolas;
 }

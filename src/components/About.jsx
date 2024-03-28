@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
-import "../styles/about.css";
 
 function About() {
   const el = React.useRef(null);

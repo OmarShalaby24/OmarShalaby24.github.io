@@ -23,23 +23,23 @@ function NavBar() {
       >
         <ul className="navbar-nav justify-content-end">
           <li className="nav-item">
-            <a className="nav-link " style={{ color: "#eee" }} href="#">
+            <a className="nav-link " style={{ paddingRight: "20px" }} href="#">
               Work<span class="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" style={{ color: "#eee" }} href="#">
+            <a className="nav-link" style={{ paddingRight: "20px" }} href="#">
               Skills
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" style={{ color: "#eee" }} href="#">
+            <a className="nav-link" style={{ paddingRight: "20px" }} href="#">
               Resume
             </a>
           </li>
 
           <li className="contact-btn">
-            <a className="nav-link" style={{ color: "#eee" }} href="#">
+            <a className="nav-link" href="#">
               Contact
             </a>
           </li>
